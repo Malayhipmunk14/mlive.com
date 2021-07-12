@@ -1,0 +1,56 @@
+body{
+    background-image: url("f.jpg");
+    background-size: cover;
+
+}
+
+
+.box{
+    
+    border: 2px dotted yellow;
+    background-position: left top;
+    width: 300px;
+
+    
+    background-origin: border-box;
+  
+}
+.box h1,p{
+   float: left;
+}
+.box h1{
+    color: cyan;
+}
+.box p{
+    color: rgb(247, 184, 27);
+}
+.coop{
+    color: white;
+}
+.lioxnkb{
+    text-align: left top;
+    
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.footer:h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+
+    
+}
+.icons .fab{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.far-fa-heart{
+    color: #f44336;
+}
